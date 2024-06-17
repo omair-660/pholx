@@ -1,0 +1,66 @@
+section.landing .container{
+    background-image: url("../image/image1.png");
+}
+.bg-image{
+    background-position: center;
+        background-size: contain;
+    background-repeat: no-repeat;
+}
+.bg-imageL{
+    background-position: right top;
+            background-size: contain;
+}
+.bg-imageR{
+    background-position: right bottom;
+        background-repeat: no-repeat;
+}
+.landing .text,
+.landing .text button{
+    width: fit-content;
+}
+.landing .text h1 {
+    position: relative;
+    z-index: -1;
+    font-size: 14vw;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #d0d0d0;
+}
+.landing .text h2{
+    font-size: 7vw;
+    font-weight: 800;
+}
+
+
+.tow .box h2 {
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #ffffff7d;
+}
+.three .icon i{
+    color: red;
+}
+.four .image {
+    left: -20%;
+    width: 89%;
+}
+.sex .image{
+    width: 69%;
+    left: -9%;
+}
+.seven span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.seven p,footer p{
+    font-size: 14px;
+}
+.seven h4{
+    font-size: 19px;
+    font-weight: 900;
+}
+.h{
+    height: 194px;
+    object-fit: cover;
+}
